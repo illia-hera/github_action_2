@@ -9,4 +9,4 @@ COPY feed.py /usr/bin/feed.python3
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
